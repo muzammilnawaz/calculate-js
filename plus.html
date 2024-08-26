@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plus</title>
+    <link rel="stylesheet" href="plus.css">
+</head>
+<body>
+
+    <h3>Plus</h3>
+
+    <div class="header">
+        <p>First Value</p>
+    <input type="number" id="user1" style="height: 50px; width: 25%;">
+    <br><br>
+    <p>Secend Value</p>
+    <input type="number" id="user2" style="height: 50px; width: 25%;">
+    <br><br>
+    <button onclick="submit()" style="height: 50px; width:100px ;">calculate</button>
+
+    <div id="result"></div>
+
+</div>
+
+
+
+
+<script>
+    function submit(){
+        let user1 = document.querySelector("#user1").value
+        let user2 = document.querySelector("#user2").value
+        document.querySelector("#result").innerText = Number(user1) + Number(user2)
+    }
+</script>
+    
+</body>
+</html>

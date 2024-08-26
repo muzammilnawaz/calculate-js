@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url("images\ \(5\).jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.header{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#result{
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+
+#result:hover{
+    border: 2px solid black;
+}
+
+
+
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
